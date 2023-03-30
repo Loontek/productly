@@ -1,0 +1,141 @@
+.contact-us {
+	padding-top: 62px;
+	padding-bottom: 82px;
+	background: #FFEEE1;
+
+	@include media-mobile {
+		padding-top: 34px;
+		padding-bottom: 50px;
+	}
+}
+
+.contact-us__wrapper {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+
+	@include media-tablet {
+		flex-direction: column;
+	}
+}
+
+.contact-us__content {
+	flex-basis: 45%;
+	display: flex;
+	flex-direction: column;
+
+	@include media-tablet {
+		align-items: center;
+		text-align: center
+	}
+}
+
+.contact-us__description {
+	@include font(1.6rem, 2.6rem, 400);
+	color: $color-text;
+	margin: 0;
+	margin-top: 17px;
+}
+.contact-us__contacts {
+	margin-top: 60px;
+	width: max-content;
+
+	@include media-tablet {
+		margin-top: 26px;
+	}
+}
+.contact-us__form {
+	flex-basis: 45%;
+}
+
+.contacts {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contacts__link {
+	@include font(2.5rem, 2.6rem, 400);
+	color: $color-text;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	text-decoration: none;
+	
+	@include media-mobile {
+		@include font(2rem, 2.6rem, 400);
+	}
+}
+.contacts__icon {
+	width: 25px;
+	height: 25px;
+	background: $color-light;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	// flex-wrap: wrap;
+
+	@include media-tablet {
+		align-items: center;
+	}
+}
+
+.contact-form__inputs {
+	width: 100%;
+	display: flex;
+	gap: 16px;
+	justify-content: space-between;
+
+	@include media-mobile {
+		flex-direction: column;
+	}
+}
+
+.contact-form__input {
+	// flex-basis: 50%;
+	width: 50%;
+	height: 45px;
+	padding: 10px 20px;
+	@include font(1.6rem, 2.6rem, 400);
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	
+	@include media-mobile {
+		width: 100%;
+	}
+
+	&::placeholder {
+		color: #c6c6c6;
+	}
+}
+
+.contact-form__message {
+	height: 160px;
+	resize: none;
+	margin-top: 18px;
+	padding: 10px 20px;
+	@include font(1.6rem, 2.6rem, 400);
+	border: none;
+	outline: none;
+	border-radius: 5px;
+
+	@include media-tablet {
+		// flex-basis: 100%;
+		width: 100%;
+	}
+
+	&::placeholder {
+		color: #c6c6c6;
+	}
+}
+.contact-form__buttons {
+	margin-top: 20px;
+}

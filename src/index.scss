@@ -1,5 +1,30 @@
-.play-path {
-	&:hover {
-		fill: #FF7549;
-	}
-}
+// Abstracts
+@import './styles/abstracts/_constants';
+@import './styles/abstracts/_mixins';
+@import './styles/abstracts/_placeholders';
+
+// Base
+@import './styles/base/normalize';
+@import './styles/base/fonts';
+@import './styles/base/_base';
+
+// Components
+@import './styles/components/_navigation';
+@import './styles/components/_button';
+@import './styles/components/_logo';
+@import './styles/components/_burger-menu-icon';
+@import './styles/components/_promo';
+@import './styles/components/_link-button';
+@import './styles/components/_tools';
+@import './styles/components/_tool';
+@import './styles/components/_strategies';
+@import './styles/components/_strategy';
+@import './styles/components/_tag';
+@import './styles/components/_about-us';
+@import './styles/components/_contact-us';
+@import './styles/components/_contact-us';
+@import './styles/components/_footer';
+
+// Layouts
+@import './styles/layouts/_wrapper';
+@import './styles/layouts/_header';

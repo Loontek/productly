@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-display: auto;
+	font-weight: 400;
+	src: local('Open Sans'), local('Open-Sans'),
+		url('../public/fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-display: auto;
+	font-weight: 600;
+	src: local('Open Sans'), local('Open-Sans'),
+		url('../public/fonts/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	font-display: auto;
+	font-weight: 700;
+	src: local('Open Sans'), local('Open-Sans'),
+		url('../public/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-display: auto;
+	font-weight: 400;
+	src: local('Poppins'),
+		url('../public/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-display: auto;
+	font-weight: 600;
+	src: local('Poppins'),
+		url('../public/fonts/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-display: auto;
+	font-weight: 700;
+	src: local('Poppins'),
+		url('../public/fonts/Poppins-Bold.ttf');
+}

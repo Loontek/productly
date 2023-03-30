@@ -1,0 +1,15 @@
+.link-button {
+	min-width: 174px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.link-button__text {
+	@extend %font-add;
+	@include font(1.6rem, 2.4rem, 600);
+	@extend %transition;
+	font-family: 'Poppins';
+	color: $color-prim;
+	text-decoration: underline;
+}

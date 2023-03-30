@@ -1,0 +1,22 @@
+.navigation__list {
+	display: flex;
+	gap: 17px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+// .navigation__item {
+// 	min-width: 63px;
+// }
+
+.navigation__link {
+	@include font(1.5rem, 2.8rem);
+	text-decoration: none;
+	color: $color-heading;
+	@extend %transition;
+
+	&:hover {
+		color: $color-prim;
+	}
+}

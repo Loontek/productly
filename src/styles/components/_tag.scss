@@ -1,0 +1,21 @@
+.tag {
+	width: max-content;
+	border-radius: 90px;
+	padding: 0 14px;
+	color: $color-text;
+	cursor: pointer;
+	@include font(1.3rem, 2.8rem,400);
+
+	&_active {
+		background-color: $color-prim;
+		color: $color-light;
+	}
+
+	&_bordered {
+		border: 1px solid #D7D7D7;
+	}
+
+	&_colored {
+		background-color: #f5f5f5;
+	}
+}
